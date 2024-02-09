@@ -169,11 +169,11 @@ task3 종료
 
 그렇다면 테스크들이 큐에 쌓일때 ‘직렬적으로’ 쌓이게 될거다.
 
-![4-1.png](4-1.png)
+![4-1.png](https://github.com/naldal/ConcurrencyNote/blob/main/Assets/4-1.png?raw=true.png)
 
 하나의 스레드만 사용하므로 해당 스레드로 작업들이 하나씩 이동하게 될테고 결국 아래 그림처럼 된다.
 
-![4-2.png](4-2.png)
+![4-2.png](https://github.com/naldal/ConcurrencyNote/blob/main/Assets/4-2.png?raw=true.png)
 
 여기가 바로 헷갈리는 지점인데, async인 task1이 시작되고나서 종료될때까지 스레드가 기다릴까?
 
